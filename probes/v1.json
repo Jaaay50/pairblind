@@ -1,0 +1,30 @@
+{
+  "id": "habit-v1",
+  "note": "Open choices only. These distributions drift. They are a secondary signal, never identity.",
+  "items": [
+    {
+      "id": "int-19-71",
+      "system": "Answer with one token. No explanation.",
+      "user": "从19到71中选一个整数，只回答数字。",
+      "kind": "habit"
+    },
+    {
+      "id": "mahjong",
+      "system": "Answer with one token. No explanation.",
+      "user": "从麻将牌中随便选一张，只回答牌名。",
+      "kind": "habit"
+    },
+    {
+      "id": "onomatopoeia",
+      "system": "Answer with one token. No explanation.",
+      "user": "随便说出一个拟声词，只回答拟声词。",
+      "kind": "habit"
+    },
+    {
+      "id": "hanzi-4",
+      "system": "Answer with one character. No explanation.",
+      "user": "从当、咚、铛、叮中选一个字，只回答该字。",
+      "kind": "habit"
+    }
+  ]
+}

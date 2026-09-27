@@ -1,0 +1,14 @@
+[project]
+name = "pairblind"
+version = "0.1.0"
+description = "Blind behavioral comparison of LLM endpoints. Not model authentication."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+pairblind = "pairblind.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["pairblind*"]

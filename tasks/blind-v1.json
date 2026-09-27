@@ -1,0 +1,25 @@
+{
+  "id": "blind-v1",
+  "note": "Deterministic checks. A relay that only mimics short-choice habits fails these. Paraphrase uses a frozen nonce so the task cannot be cached as a single string.",
+  "items": [
+    {
+      "id": "add",
+      "kind": "sum",
+      "a": 1847293,
+      "b": 9055117,
+      "expect": 10902410
+    },
+    {
+      "id": "json-shape",
+      "kind": "json_keys",
+      "user": "Reply with one JSON object and nothing else. Keys must be exactly bird and count. bird is a string. count is the integer 3.",
+      "keys": ["bird", "count"],
+      "count": 3
+    },
+    {
+      "id": "nonce-echo",
+      "kind": "contains_nonce",
+      "user": "Repeat this nonce exactly once, with no other words: {nonce}"
+    }
+  ]
+}
